@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Outdoor Clothing | Kontakta Oss</title>
+	<link rel="icon" href="../img/pagecontent/favicon.png">
+    <link href="../styles/kontakt.css" rel="stylesheet">
+    <link href="../styles/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../js/fontawesome.js"></script>
+</head>
+
+<body>
+	<script>
+	$(document).ready(function(){
+		$('.dropDown').hover(function(){
+			$('.aboutUs').stop().animate({marginTop: '10%'});
+		}, function(){
+			$('.aboutUs').stop().animate({marginTop: '5%', display: 'none'})
+		});
+	});
+	</script>
+	<header>
+		<div class="topSection">
+		<i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+		<img src="../img/pagecontent/logo.png" class="logoTop" alt="logoTop">
+		<button class="myAccount"><a href="../sites/server-site/sign.php">Mitt konto</a></button>
+		</div>
+		<div class="sectionSeparator"></div>
+		<div class="bottomSection">
+			<nav class="topNavigation">
+				<ul>
+					<li><a href="../index.php">Hem</a></li>
+					<li class="dropDown"><a href="#">Produkter</a>
+						<ul class="dropDownContent">
+							<div class="sectionSeparatorDrop"></div>
+							<li><a href="products/jackor.html">Jackor</a></li>
+							<li><a href="products/trojor.html">Tröjor</a></li>
+							<li><a href="products/tshirt.html">T-Shirts</a></li>
+							<li><a href="products/byxor.html">Byxor</a></li>
+							<li><a href="products/keps.html">Kepsar</a></li>
+						</ul>
+					</li>
+					<li><a href="leverans.html">Leverans</a></li>
+					<li><a href="#">Kontakta oss</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="aboutUs">
+			<h1>Kontakt information</h1>
+			<div class="kontaktBox">
+				<h2>Information</h2>
+				<p class="kontaktParagraph">Hittar du inte vad du letar efter är du alltid välkommen att kontakta vår kundtjänst via kontaktknapparna nedan.
+Vår kundtjänst har öppet vardagar mellan kl. 8-18.</p>
+				<p class="kontaktParagraphInfo"><i class="fa fa-phone kontaktFa" aria-hidden="true"></i>Telefon: 0704555785</p>
+				<p class="kontaktParagraphInfo"><i class="fa fa-envelope-o kontaktFa" aria-hidden="true"></i>
+Email: kontakt@outdoor.se</p>
+				<p class="kontaktParagraphInfo"><i class="fa fa-map-marker kontaktFa" aria-hidden="true"></i>
+Adress: Sveavägen 96</p>
+			</div>
+			<div class="socialMedia">
+				<h2>Sociala Medier</h2>
+				<p class="socialParagraph">Du kan alltid också nå oss på sociala medier!</p>
+				<ul class="socialIcons">
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+					<i class="fa fa-twitter-square" aria-hidden="true"></i>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="topSection">
+			<nav class="bottomNavigation">
+				<ul>
+					<li><a href="">Jackor</a></li>
+					<li><a href="">Tröjor</a></li>
+					<li><a href="">T-Shirts</a></li>
+					<li><a href="">Byxor</a></li>
+					<li><a href="">Kepsar</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="sectionSeparator"></div>
+		<div class="bottomSection">
+			<ul class="socialIcons">
+				<i class="fa fa-facebook-official" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-twitter-square" aria-hidden="true"></i>
+			</ul>
+			<p class="copyright">Outdoor clothing © 2017</p>
+		</div>
+	</footer>
+</body>
+
+</html>
